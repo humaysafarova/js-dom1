@@ -1,4 +1,62 @@
 body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
+}
+
+#jsDom {
+  padding: 50px 0;
+}
+#jsDom .chat {
+  background-color: #e8edff;
+  max-width: 500px;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+}
+#jsDom .chat .message {
+  background-color: white;
+  min-height: 200px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+#jsDom .chat .message .line {
+  display: inline-block;
+  background-color: #7c8ee4;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px 0 0 10px;
+}
+#jsDom .chat .text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+#jsDom .chat .text input {
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+#jsDom .chat .text .sent {
+  background-color: #9aaeed;
+  padding: 10px 25px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#jsDom .chat .text .sent h3 {
+  color: white;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  #jsDom .chat {
+    margin-bottom: 40px;
+  }
 }/*# sourceMappingURL=style.css.map */
