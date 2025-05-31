@@ -23,7 +23,7 @@ body {
   flex-direction: column;
 }
 #jsDom .chat .message .end {
-  align-self: flex-end;
+  text-align: end;
 }
 #jsDom .chat .message .line {
   display: inline-block;
