@@ -13,7 +13,6 @@ body {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   margin: auto;
 }
 #jsDom .chat .message {
@@ -21,7 +20,11 @@ body {
   min-height: 200px;
   border-radius: 20px;
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+}
+#jsDom .chat .message .end {
+  display: flex;
+  justify-content: flex-end;
 }
 #jsDom .chat .message .line {
   display: inline-block;
@@ -36,7 +39,6 @@ body {
 #jsDom .chat .text {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-top: 20px;
 }
 #jsDom .chat .text input {

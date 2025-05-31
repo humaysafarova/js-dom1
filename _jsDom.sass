@@ -7,14 +7,16 @@
         padding: 20px
         display: flex
         flex-direction: column
-        justify-content: space-between
         margin: auto
         .message
             background-color: #ffff
             min-height: 200px
             border-radius: 20px
             display: flex
-            justify-content: flex-start
+            flex-direction: column
+            .end
+                display: flex
+                justify-content: flex-end
             .line
                 display: inline-block
                 background-color: #7c8ee4
@@ -27,7 +29,6 @@
         .text
             display: flex
             justify-content: space-between
-            align-items: center
             margin-top: 20px
             input
                 padding: 10px 15px
