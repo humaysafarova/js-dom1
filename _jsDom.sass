@@ -11,9 +11,15 @@
         .message
             background-color: #ffff
             min-height: 200px
+            max-height: 200px
+            overflow-y: hidden
             border-radius: 20px
             display: flex
             flex-direction: column
+            scrollbar-width: thin
+            scrollbar-color: #b3b3b3 #f1f1f1
+            &::-webkit-scrollbar-button
+                display: none
             .end
                 text-align: end
             .line
@@ -23,7 +29,7 @@
                 padding: 10px 25px
                 border-radius: 15px
                 font-size: 14px
-                margin: 5px 10px
+                margin: 7px 10px
         .text
             display: flex
             justify-content: space-between
